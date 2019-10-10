@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.wdcloud.minecamera.NiceSurfaceView
+            android:id="@+id/surface_view"
+            android:layout_width="fill_parent"
+            app:hole_radius="150"
+            app:radius_y="160"
+            android:layout_height="fill_parent"></com.wdcloud.minecamera.NiceSurfaceView>
+<!--        <com.wdcloud.minecamera.CircleHead-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="#80000000"-->
+<!--            >-->
+
+<!--        </com.wdcloud.minecamera.CircleHead>-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="50dp">
+<!--            <Button-->
+<!--                android:id="@+id/take_photo"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="拍照">-->
+<!--            </Button>-->
+            <Button
+                android:id="@+id/nice_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="聚焦"
+                ></Button>
+            <Button
+                android:id="@+id/chage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="切换前后摄像头"></Button>
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>
