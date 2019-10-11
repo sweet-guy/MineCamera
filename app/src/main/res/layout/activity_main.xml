@@ -46,6 +46,11 @@
                 android:layout_height="wrap_content"
                 android:text="切换前后摄像头"></Button>
         </LinearLayout>
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="474465465456"-->
+<!--            style="@style/myText"></TextView>-->
     </FrameLayout>
 
 </RelativeLayout>
